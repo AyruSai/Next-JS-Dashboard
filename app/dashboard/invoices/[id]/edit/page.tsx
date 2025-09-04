@@ -4,10 +4,10 @@ import Breadcrumbs from "@/app/ui/invoices/breadcrumbs";
 import { fetchInvoiceById, fetchCustomers } from "@/app/lib/data";
 import { notFound } from "next/navigation";
 
-type Props = {
-  params: Promise<{ id: string }>;
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
-};
+// type Props = {
+//   params: Promise<{ id: string }>;
+//   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+// };
 
 // export async function generateMetadata(
 //   { params, searchParams }: Props,
